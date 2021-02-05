@@ -1,0 +1,40 @@
+/* sub.css */
+
+#video {
+  position: relative;
+  background: #333;
+}
+
+#video .container{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+#video .header_box {
+  display: none;
+}
+
+#main {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  border: 2px solid red;
+}
+
+#main iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#main_footer {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  outline: 1px solid red;
+}
+
+#main_footer .sns li {
+  display: inline-block;
+}
