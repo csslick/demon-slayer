@@ -1,6 +1,7 @@
 // main.js
 
 $(function(){
+
   // gnb 열기
   $('.btn-toggle').on('click', function(){
     $('#gnb').addClass('show');
