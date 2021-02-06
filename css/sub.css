@@ -1,19 +1,19 @@
 /* sub.css */
 
-#video {
-  position: relative;
+/* 배경 초기화 */
+body {
   background: #000;
 }
 
 #video .container{
-
+  /* border: 2px solid red; */
 }
 
 #video #main_header {
   position: relative;
   width: 100%;
   background: #000;
-  height: 50px;
+  height: 100px;
 }
 
 #video .header_box {
@@ -21,15 +21,16 @@
 }
 
 #main {
-
+  position: relative;
 }
 
 #main iframe {
-  position: absolute;
   width: 100%;
+  /* header, footer 공간을 제외한 영상 영역 */
   height: calc(100vh - 200px);
   background: #abc;
   /* border: 2px solid green; */
+  display: block;
 }
 
 #main_footer {
