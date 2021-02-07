@@ -13,14 +13,7 @@ $(function(){
     $('#gnb').removeClass('show');
   });
 
-  $('#gnb a[href*="synop"]').on('click', function(e){
-    // e.preventDefault();
-    // $('#synop').addClass('show');
-    // location.href = './index.html?synop=1';
-    console.log('synop');
-  }) 
-  
-  console.log(location.href);
+  // 시놉시스 팝업
   var val = location.href.substr(
     location.href.lastIndexOf('=') + 1
   );
