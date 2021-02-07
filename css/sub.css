@@ -47,5 +47,60 @@ body {
 #main_footer .sns { margin-top: 20px;}
 #main_footer .sns li {
   display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* gallery */
+#gallery{
+  background: #000;
+}
+#gallery #main_header {
+  position: relative;
+  width: 100%;
+  background: #000;
+  height: 100px;
+}
+
+#gallery .header_box {
+  display: none;
+}
+
+#gallery #main figure {
+  max-width: 1000px;
+  /* background: #abc; */
+  /* border: 2px solid green; */
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+#gallery  #main figure > img {
+  width: 100%;
+}
+
+#gallery  #main > ul {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#gallery #main ul > li {
+  width: calc(100% / 6);
+  float: left;
+  /* border: 2px solid red; */
+  border: 1px solid #333;
+}
+
+#gallery  #main ul > li img {
+  width: 100%;
+  display: block;
+}
+
+#gallery #main_footer {
+  position: relative;
+  margin-top: 40px;
 }
 
