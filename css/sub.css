@@ -45,6 +45,31 @@ body {
   /* border: 1px solid yellow; */
 }
 
+/* 갤러리 모바일 목록 구성 */
+@media screen and (max-width: 500px) {
+  .clear { clear: both;}
+  #gallery #main ul.thumb {
+    overflow: hidden;
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  #gallery #main ul.thumb li {
+    width: calc((100% - 40px) / 3);
+    float: left;
+    /* outline: 2px solid red; */
+    /* border: 1px solid #707070; */
+    overflow: hidden;
+  }
+  
+  #main_footer {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    border: 1px solid red;
+  }
+}
 
 #main_footer .sns { margin-top: 20px;}
 #main_footer .sns li {
@@ -102,23 +127,5 @@ body {
   display: block;
 }
 
-/* 갤러리 모바일 목록 구성 */
-@media screen and (max-width: 500px) {
-  .clear { clear: both;}
-  #gallery #main ul.thumb {
-    overflow: hidden;
-    width: 100%;
-    margin-left: 20px;
-  }
-  #gallery #main ul.thumb li {
-    width: calc((100% - 40px) / 3);
-    float: left;
-    /* outline: 2px solid red; */
-    /* border: 1px solid #707070; */
-    overflow: hidden;
-  }
-  #main_footer {
-    position: absolute;
-  }
-}
+
 

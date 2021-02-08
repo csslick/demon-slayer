@@ -199,17 +199,3 @@ body {
 }
 
 
-@media screen and (max-width: 500px) {
-  .clear { clear: both;}
-  #gallery #main ul.thumb {
-    overflow: hidden;
-    width: 100%;
-  }
-  #gallery #main ul.thumb li {
-    width: calc(100% / 3);
-    float: left;
-    /* outline: 2px solid red; */
-    /* border: 1px solid #707070; */
-    overflow: hidden;
-  }
-}

@@ -33,7 +33,7 @@ body {
   position: fixed;
   width: 80%;
   height: 70%;
-  /* overflow: scroll; */
+  overflow: scroll;
   background: #fff;
   left: 50%;
   top: 50%;
@@ -43,3 +43,6 @@ body {
   padding-top: 60px;
   display: none;
 }
+
+
+
