@@ -9,7 +9,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   top: 0;
-  outline: 1px solid green;
+  /* outline: 1px solid green; */
   height: 100vh;
   text-align: center;
   padding-top: 90px;
