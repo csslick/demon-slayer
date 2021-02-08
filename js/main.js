@@ -13,21 +13,19 @@ $(function(){
     $('#gnb').removeClass('show');
   });
 
-  $('#gnb a[href*="synop"]').on('click', function(e){
-    // e.preventDefault();
-    // $('#synop').addClass('show');
-    // location.href = './index.html?synop=1';
-    console.log('synop');
-  }) 
-  
-  console.log(location.href);
+  // url 파라미터 값 확인(synop = 1 ?)
   var val = location.href.substr(
     location.href.lastIndexOf('=') + 1
   );
+  // 시놉시스 페이지면 팝업창 출력 및 메뉴 active
   if(val == 1) {
-    $('#synop').addClass('show');
+    $('#synop_popup').addClass('show');
+    $('#gnb ul li').removeClass('active');
+    $('#gnb ul li').eq(2).addClass('active');
+    $('.header_box').css('display', 'none');
+    $('title').text('시놉시스 | 극장판 귀멸의 칼날: 무한열차편');
   } else {
-    $('#synop').removeClass('show');
+    $('#synop_popup').removeClass('show');
   }  
 
 });

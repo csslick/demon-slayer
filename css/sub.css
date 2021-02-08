@@ -20,11 +20,11 @@ body {
   display: none;
 }
 
-#main {
+#video #main {
   position: relative;
 }
 
-#main iframe {
+#video #main iframe {
   width: 100%;
   /* header, footer 공간을 제외한 영상 영역 */
   height: calc(100vh - 200px);
@@ -44,8 +44,11 @@ body {
   /* border: 1px solid yellow; */
 }
 
+
 #main_footer .sns { margin-top: 20px;}
 #main_footer .sns li {
   display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 

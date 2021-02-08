@@ -120,8 +120,8 @@ body {
 #gnb {
   position: fixed;
   background: #F6F6F6;
-  right: -290px; top: 0;
-  width: 290px;
+  right: -390px; top: 0;
+  width: 390px;
   height: 100%;
   transition-duration: 0.4s;
   z-index: 999;
@@ -147,15 +147,16 @@ body {
 }
 
 #gnb > ul > li {
-  width: 290px; height: 50px;
+  width: 390px; height: 80px;
   /* outline: 1px solid #ccc; */
   text-align: center;
+  font-size: 2em;
 }
 
 #gnb > ul > li > a {
   /* outline: 1px solid red; */
   display: block;
-  line-height: 50px;
+  line-height: 80px;
   color: #333;
 }
 
@@ -170,12 +171,11 @@ body {
 }
 
 
-
 /* 시놉시스 팝업 */
-#synop {
+#synop_popup {
   position: fixed;
   width: 800px;
-  height: 600px;
+  height: 428px;
   background: #fff;
   left: 50%;
   top: 50%;
@@ -185,6 +185,14 @@ body {
   display: none;
 }
 
-#synop.show {
+#synop_popup.show {
   display: block;
+}
+
+#synop_popup h2 {
+  margin-bottom: 28px;
+}
+
+#synop_popup p {
+  margin-bottom: 1em;
 }
