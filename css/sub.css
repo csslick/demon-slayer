@@ -34,7 +34,8 @@ body {
 }
 
 #main_footer {
-  position: absolute;
+  clear: both;
+  position: relative;
   bottom: 0;
   left: 0;
   text-align: center;
@@ -81,6 +82,7 @@ body {
   /* outline: 2px solid green; */
   max-width: 1000px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 #gallery #main ul li {
@@ -115,4 +117,8 @@ body {
     /* border: 1px solid #707070; */
     overflow: hidden;
   }
+  #main_footer {
+    position: absolute;
+  }
 }
+
