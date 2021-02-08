@@ -99,3 +99,20 @@ body {
   width: 100%;
   display: block;
 }
+
+/* 갤러리 모바일 목록 구성 */
+@media screen and (max-width: 500px) {
+  .clear { clear: both;}
+  #gallery #main ul.thumb {
+    overflow: hidden;
+    width: 100%;
+    margin-left: 20px;
+  }
+  #gallery #main ul.thumb li {
+    width: calc((100% - 40px) / 3);
+    float: left;
+    /* outline: 2px solid red; */
+    /* border: 1px solid #707070; */
+    overflow: hidden;
+  }
+}
