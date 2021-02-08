@@ -67,7 +67,7 @@ body {
   position: absolute;
   left: 0; top: 50%;
   transform: translateY(-50%);
-  /* outline: 2px solid green; */
+  /* outline: 2px solid white; */
 }
 
 #main_header h1 > img {

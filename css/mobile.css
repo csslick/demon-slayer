@@ -1,0 +1,36 @@
+/* mobile.css */
+body {
+  /* background: red; */
+}
+
+.container {
+  position: relative;
+  max-width: 1600px;
+  /* height: 100vh; */
+  margin: 0 auto;
+  /* outline: 2px solid red; */
+}
+
+#main_header {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  /* outline: 1px solid green; */
+  height: 100vh;
+  text-align: center;
+  /* padding-top: 90px; */
+}
+
+.header_box {
+  width: 100%;
+  position: absolute;
+  left: 0; top: 50%;
+  transform: translateY(-50%);
+  /* outline: 2px solid white; */
+}
+
+#main_header h1 > img {
+  width: 80%;
+}

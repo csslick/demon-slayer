@@ -28,4 +28,14 @@ $(function(){
     $('#synop_popup').removeClass('show');
   }  
 
+  // 갤러리 이미지 클릭시 변경하기
+  $('#main > .thumb > li').on('click', function(){
+    // 이미지 주소값 읽기
+    let getUrl = $(this).find('img').attr('src');
+    console.log(getUrl);
+    // 이미지 쓰기
+    $('#main > figure > img').attr('src', getUrl);
+  })
+
+
 });
