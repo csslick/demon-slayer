@@ -28,6 +28,7 @@ body {
   color: #fff;
   background-image: url(../images/poster03.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* 모바일 기기일때 배경 구도 바꾸기 */
