@@ -201,3 +201,15 @@ body {
 }
 
 
+.header_box h1 img {
+  animation-name: logo;
+  animation-duration: 6s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+@keyframes logo {
+  from { transform: scale(0.9); }
+  to { transform: scale(1.0); }
+}
